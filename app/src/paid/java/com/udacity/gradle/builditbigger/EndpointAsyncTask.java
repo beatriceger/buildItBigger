@@ -15,9 +15,6 @@ import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 
 import java.io.IOException;
 
-/**
- * Created by Matteo on 30/06/2015.
- */
 class EndpointsAsyncTask extends AsyncTask<Pair<Context, String>, Void, String> {
     private static JokeApi jokeApi = null;
     private Context context;
